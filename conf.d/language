@@ -1,0 +1,7 @@
+#!/bin/bash
+CELL_ID=`basename ${BASH_SOURCE[0]}`
+DICT_CELL=("${DICT_CELL[@]}" $CELL_ID)
+DICT=(
+"四川话大集合【官方推荐】/75220"
+)
+eval "${CELL_ID}${DICT_CELL_SUFFIX}=(${DICT[@]})"

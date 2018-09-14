@@ -1,0 +1,9 @@
+#!/bin/bash
+CELL_ID=`basename ${BASH_SOURCE[0]}`
+DICT_CELL=("${DICT_CELL[@]}" $CELL_ID)
+DICT=(
+"家居用品/7587"
+"家具词库/6936"
+"家居装修词汇大全【官方推荐】/15182"
+)
+eval "${CELL_ID}${DICT_CELL_SUFFIX}=(${DICT[@]})"

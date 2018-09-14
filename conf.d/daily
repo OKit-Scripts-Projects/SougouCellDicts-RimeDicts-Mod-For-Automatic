@@ -1,0 +1,8 @@
+#!/bin/bash
+CELL_ID=`basename ${BASH_SOURCE[0]}`
+DICT_CELL=("${DICT_CELL[@]}" $CELL_ID)
+DICT=(
+"网络流行新词【官方推荐】/4"
+
+)
+eval "${CELL_ID}${DICT_CELL_SUFFIX}=(${DICT[@]})"

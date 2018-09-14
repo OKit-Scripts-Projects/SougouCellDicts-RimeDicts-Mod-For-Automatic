@@ -1,0 +1,1 @@
+/usr/local/opt/gnu-sed/libexec/gnubin/sed "/cells_section/a\\  - luna_pinyin.cell.computer\\n  - luna_pinyin.cell.poetry.school\\n  - luna_pinyin.cell.poetry.libai\\n  - luna_pinyin.cell.poetry.mingju.daquan\\n  - luna_pinyin.cell.poetry.mingju.official\\n  - luna_pinyin.cell.poetry.shisanbai" -i /Users/Prolospro/Downloads/scel-rime-master/test/luna_pinyin.extended.dict.yaml

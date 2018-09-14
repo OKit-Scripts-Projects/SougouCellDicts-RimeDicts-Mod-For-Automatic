@@ -1,0 +1,4 @@
+*.scel
+*.txt
+out
+config

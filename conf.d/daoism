@@ -1,0 +1,14 @@
+#!/bin/bash
+CELL_ID=`basename ${BASH_SOURCE[0]}`
+DICT_CELL=("${DICT_CELL[@]}" $CELL_ID)
+DICT=(
+"道教词汇大全【官方推荐】/15146"
+"道源洞天/81562"
+"道德真经/87131"
+"易学用词/74576"
+"滴天髓/54384"
+"道教列代高真人名/16147"
+"道教词汇/10703"
+
+)
+eval "${CELL_ID}${DICT_CELL_SUFFIX}=(${DICT[@]})"
