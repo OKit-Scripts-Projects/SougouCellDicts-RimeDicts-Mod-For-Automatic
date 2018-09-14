@@ -1,12 +1,14 @@
-# Sougou.Cell.Dict--Rime.Dict
-This project is for Chinese IME, thus this document is written in Chinese.
-
-# 原项目说明
 这是一个自动下载搜狗输入法的[细胞词库](http://pinyin.sogou.com/dict/)并转换为 `RIME` 词库的脚本。
 
-# 如何使用
----
-## 配置说明
+# 运行说明
+1. 文本编辑器打开配置`config`文件
+2. 配置完成以后运行 `fetch.sh`，脚本退出以后，生成的词库文件就在`$Rime/$FILE_PREFIX` 里面了。
+3. 每日更新热词，执行`daily.sh`
+4. 重新布署
+
+
+# 配置说明
+## 配置方法
 1.用文本编辑器打开 「config」 文件，
 
 2.修改其中的路径。
@@ -70,10 +72,5 @@ https://pinyin.sogou.com/d/dict/download_cell.php?id=4&name=%E7%BD%91%E7%BB%9C%E
 合成就是`"网络流行新词【官方推荐】/4"`
 
 
-# 运行说明
-1. 文本编辑器打开配置`config`文件
-2. 配置完成以后运行 `fetch.sh`，脚本退出以后，生成的词库文件就在`$Rime/$FILE_PREFIX` 里面了。
-3. 每日更新热词，执行`daily.sh`
-4. 重新布署
 
 
